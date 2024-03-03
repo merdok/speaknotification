@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = "speaknotificationprefs";
+		cell = PSLinkCell;
+		detail = "speaknotificationprefsListController";
+		icon = "speaknotification.png";
+		isController = 1;
+		label = "Speak Notification";
+	};
+}

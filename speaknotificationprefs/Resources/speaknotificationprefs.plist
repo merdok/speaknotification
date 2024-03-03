@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Banners has to be enabled for the app notifications.</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.merdok.speaknotification.prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.merdok.speaknotification</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>icon</key>
+			<string>enabled.png</string>
+			<key>cellClass</key>
+			<string>SpeakNotificationSwitchTableCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Configure the tweak options, conditions, message format and voice.</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>SpeakOptionsListController</string>
+			<key>label</key>
+			<string>Speak Options</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>icon</key>
+			<string>speak.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>SpeakConditionsListController</string>
+			<key>label</key>
+			<string>Speak Conditions</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>icon</key>
+			<string>conditions.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>MessageListController</string>
+			<key>label</key>
+			<string>Custom Messages</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>icon</key>
+			<string>custommessage.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>SpeechSpeakNotificationListController</string>
+			<key>label</key>
+			<string>Voice Settings</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>icon</key>
+			<string>voice.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Additional feautres.</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>ExtrasSpeakNotificationListController</string>
+			<key>label</key>
+			<string>Extras</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>icon</key>
+			<string>extras.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+			<key>footerText</key>
+			<string>If you like my work, please consider a donation. Thanks!</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow me on twitter</string>
+			<key>action</key>
+			<string>followMe:</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate</string>
+			<key>action</key>
+			<string>donate:</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Speak Notification 1.8.19
+Copyright © 2021 merdok</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Speak Notification</string>
+</dict>
+</plist>

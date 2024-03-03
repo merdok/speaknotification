@@ -1,0 +1,9 @@
+Package: com.merdok.speaknotification
+Name: Speak Notification
+Depends: mobilesubstrate, preferenceloader,  firmware (>= 7.0)
+Version: 1.8.19
+Architecture: iphoneos-arm
+Description:Siri speaks out any notifications in a fully customised way.
+Maintainer: merdok
+Author: merdok
+Section: Tweaks
